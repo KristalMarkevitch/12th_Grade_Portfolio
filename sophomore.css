@@ -13,7 +13,30 @@ background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_reso
 }
 
 a {
-  color: #9932CC;
+  color: #FF69B4;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right,#F8F8FF, #FFB6C1);
+  font-family: Impact;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative; left:755px; 
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #FF69B4;
+  color: white;
 }
